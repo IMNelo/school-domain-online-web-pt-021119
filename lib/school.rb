@@ -18,7 +18,7 @@ class School
   end
   
   def roster
-    @roster << add_student
+    @roster #<< add_student
   end
 
 
