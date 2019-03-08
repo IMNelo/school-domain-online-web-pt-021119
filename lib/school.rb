@@ -28,8 +28,8 @@ class School
   
   def sort
     @roster.collect do |grade, students|
-      binding.pry
-      #@roster[grade]=students.sort
+      #binding.pry
+      @roster[grade]=students.sort
     end
   end
 
