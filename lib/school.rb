@@ -21,7 +21,11 @@ class School
   end
   
   def roster
-    @roster #<< add_student
+    @roster 
+  end
+  
+  def sort
+    
   end
 
 
