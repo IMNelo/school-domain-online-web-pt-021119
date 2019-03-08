@@ -1,11 +1,12 @@
 class School
   
   @roster = {}
+  
   attr_accessor :name, :grade, :roster 
 
   def initialize(name)
     @name = name
-    @roster = {key=>[]}
+    @roster = {}
   end
 
   def add_student(name)
