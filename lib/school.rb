@@ -29,7 +29,7 @@ class School
   def sort
     @roster.collect do |grade, students|
       binding.pry
-      #[grade]=students.sort
+      #@roster[grade]=students.sort
     end
   end
 
